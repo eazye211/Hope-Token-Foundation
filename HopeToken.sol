@@ -12,11 +12,11 @@ import "./StandardToken.sol";
  */
 contract HopeToken is StandardToken {
 
-  string public constant name = "Hope Token";
-  string public constant symbol = "HOPE";
-  uint256 public constant decimals = 18;
+  string public constant name = ;
+  string public constant symbol = ;
+  uint256 public constant decimals = ;
 
-  uint256 public constant INITIAL_SUPPLY = 10000000000;
+  uint256 public constant INITIAL_SUPPLY = ;
 
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. 
