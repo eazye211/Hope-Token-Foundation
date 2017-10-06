@@ -10,7 +10,7 @@ import "./StandardToken.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `StandardToken` functions.
  */
-contract HopeToken is StandardToken {
+contract Name is StandardToken {
 
   string public constant name = ;
   string public constant symbol = ;
@@ -21,7 +21,7 @@ contract HopeToken is StandardToken {
   /**
    * @dev Contructor that gives msg.sender all of existing tokens. 
    */
-  function HopeToken() {
+  function name() {
     totalSupply = INITIAL_SUPPLY;
     balances[msg.sender] = INITIAL_SUPPLY;
   }
